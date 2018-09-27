@@ -33,10 +33,9 @@ footer {
 }
 
 nav {
-    float: left;
-    max-width: 160px;
+	background-color: grey;
     margin: 0;
-    padding: 1em;
+	
 }
 
 nav ul {
@@ -44,12 +43,23 @@ nav ul {
     padding: 0;
 }
    
+nav ul li {
+	display: inline-block;
+    text-decoration: none;
+	padding: 1em;
+}
+nav ul li:hover{
+	background-color: blue;
+}
+nav ul li a:hover{
+	color: white;
+}
 nav ul a {
     text-decoration: none;
+	color: black;
 }
 
 article {
-    margin-left: 170px;
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
